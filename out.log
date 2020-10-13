@@ -1,0 +1,681 @@
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM attend -> 2019-06-04T15:47:36+08:00
+OK: -> 2019-06-04T15:47:36+08:00
+[0mGET /v1/api/deer/tables/attend [32m200 [0m465.611 ms - 495820[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM attend -> 2019-06-04T15:47:50+08:00
+OK: -> 2019-06-04T15:47:51+08:00
+[0mGET /v1/api/soly/tables/attend [32m200 [0m3762.725 ms - 480181[0m
+SQL: SELECT TOP(1000) * FROM man -> 2019-06-04T15:48:20+08:00
+OK: -> 2019-06-04T15:48:20+08:00
+[0mGET /v1/api/soly/tables/man [32m200 [0m223.003 ms - 891932[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:51:28+08:00
+OK: -> 2019-06-04T15:51:28+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m98.708 ms - 11425[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:53:31+08:00
+OK: -> 2019-06-04T15:53:31+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m114.737 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:53:34+08:00
+OK: -> 2019-06-04T15:53:34+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m132.934 ms - 61[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:53:45+08:00
+OK: -> 2019-06-04T15:53:45+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m25.086 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:53:54+08:00
+OK: -> 2019-06-04T15:53:54+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m27.109 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:53:57+08:00
+OK: -> 2019-06-04T15:53:57+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m27.447 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:55:21+08:00
+OK: -> 2019-06-04T15:55:21+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m39.334 ms - 11998[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2018-05-01' and '2018-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:56:03+08:00
+OK: -> 2019-06-04T15:56:03+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m145.140 ms - 18012[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2018-05-01' and '2018-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:56:13+08:00
+OK: -> 2019-06-04T15:56:13+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m36.948 ms - 61[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2018-05-01' and '2018-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:56:15+08:00
+OK: -> 2019-06-04T15:56:15+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m46.193 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2018-05-01' and '2018-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:57:28+08:00
+OK: -> 2019-06-04T15:57:28+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m38.761 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2018-05-01' and '2018-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:57:32+08:00
+OK: -> 2019-06-04T15:57:32+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m36.963 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2018-05-01' and '2018-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:57:35+08:00
+OK: -> 2019-06-04T15:57:35+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m36.338 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T15:57:51+08:00
+OK: -> 2019-06-04T15:57:51+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m40.620 ms - 17401[0m
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:10:51+08:00
+OK: -> 2019-06-04T16:10:51+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m49.470 ms - 61[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:11:47+08:00
+OK: -> 2019-06-04T16:11:47+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m25.186 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:11:56+08:00
+OK: -> 2019-06-04T16:11:56+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m23.245 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:12:02+08:00
+OK: -> 2019-06-04T16:12:02+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m31.182 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:12:48+08:00
+OK: -> 2019-06-04T16:12:48+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m32.108 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:12:50+08:00
+OK: -> 2019-06-04T16:12:50+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m41.728 ms - 61[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:12:52+08:00
+OK: -> 2019-06-04T16:12:52+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m30.327 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:13:43+08:00
+OK: -> 2019-06-04T16:13:43+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m238.156 ms - 16850[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:14:13+08:00
+OK: -> 2019-06-04T16:14:13+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m271.661 ms - 17474[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2019-05-01' and '2019-05-29') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:14:18+08:00
+OK: -> 2019-06-04T16:14:18+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-29%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m40.881 ms - 16889[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:14:21+08:00
+OK: -> 2019-06-04T16:14:21+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m33.075 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D16189' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:16:00+08:00
+OK: -> 2019-06-04T16:16:00+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D16189%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m76.464 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D64733' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:16:04+08:00
+OK: -> 2019-06-04T16:16:04+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D64733%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m55.606 ms - 61[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D64733' and brushdate between '2019-05-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:16:07+08:00
+OK: -> 2019-06-04T16:16:07+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D64733%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m63.649 ms - 16804[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D64733' and brushdate between '2019-04-01' and '2019-05-30') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:16:41+08:00
+OK: -> 2019-06-04T16:16:41+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D64733%27%20and%20brushdate%20between%20%272019-04-01%27%20and%20%272019-05-30%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m95.170 ms - 33868[0m
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:22:25+08:00
+OK: -> 2019-06-04T16:22:25+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m104.222 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:22:29+08:00
+OK: -> 2019-06-04T16:22:29+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m62.031 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:22:29+08:00
+OK: -> 2019-06-04T16:22:29+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m51.581 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:22:30+08:00
+OK: -> 2019-06-04T16:22:30+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m48.130 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:22:52+08:00
+OK: -> 2019-06-04T16:22:52+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m123.972 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:22:54+08:00
+OK: -> 2019-06-04T16:22:55+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m39.528 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:22:56+08:00
+OK: -> 2019-06-04T16:22:57+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m22.405 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:23:44+08:00
+OK: -> 2019-06-04T16:23:44+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m40.217 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:23:49+08:00
+OK: -> 2019-06-04T16:23:49+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m26.510 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:24:16+08:00
+OK: -> 2019-06-04T16:24:16+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m25.374 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:24:21+08:00
+OK: -> 2019-06-04T16:24:21+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m42.541 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:26:41+08:00
+OK: -> 2019-06-04T16:26:41+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m106.963 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:28:32+08:00
+OK: -> 2019-06-04T16:28:32+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m110.011 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:28:40+08:00
+OK: -> 2019-06-04T16:28:40+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m24.404 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:28:43+08:00
+OK: -> 2019-06-04T16:28:43+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m41.506 ms - -[0m
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:36:10+08:00
+OK: -> 2019-06-04T16:36:10+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m229.062 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:36:15+08:00
+OK: -> 2019-06-04T16:36:15+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m27.756 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:36:23+08:00
+OK: -> 2019-06-04T16:36:23+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m39.354 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:36:28+08:00
+OK: -> 2019-06-04T16:36:28+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m27.290 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-03-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:36:37+08:00
+OK: -> 2019-06-04T16:36:37+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-03-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m140.915 ms - 61[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-03-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:36:40+08:00
+OK: -> 2019-06-04T16:36:40+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-03-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m109.149 ms - 46190[0m
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:43:37+08:00
+OK: -> 2019-06-04T16:43:37+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m104.333 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:43:48+08:00
+OK: -> 2019-06-04T16:43:49+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m96.422 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-25') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:44:05+08:00
+OK: -> 2019-06-04T16:44:05+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-25%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m62.861 ms - 14408[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:00+08:00
+OK: -> 2019-06-04T16:48:00+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m93.603 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:03+08:00
+OK: -> 2019-06-04T16:48:03+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m81.825 ms - 29220[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:06+08:00
+OK: -> 2019-06-04T16:48:06+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m68.735 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:06+08:00
+OK: -> 2019-06-04T16:48:06+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m62.494 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:07+08:00
+OK: -> 2019-06-04T16:48:07+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m61.589 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:08+08:00
+OK: -> 2019-06-04T16:48:08+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m68.036 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:09+08:00
+OK: -> 2019-06-04T16:48:09+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m63.255 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:30+08:00
+OK: -> 2019-06-04T16:48:30+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m70.846 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-06-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:48:35+08:00
+OK: -> 2019-06-04T16:48:35+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-06-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m69.689 ms - -[0m
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:52:56+08:00
+OK: -> 2019-06-04T16:52:56+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m101.155 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:52:58+08:00
+OK: -> 2019-06-04T16:52:58+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m46.338 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:52:59+08:00
+OK: -> 2019-06-04T16:52:59+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m34.334 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:00+08:00
+OK: -> 2019-06-04T16:53:00+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m40.889 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:01+08:00
+OK: -> 2019-06-04T16:53:01+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m35.716 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:01+08:00
+OK: -> 2019-06-04T16:53:01+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m33.254 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:02+08:00
+OK: -> 2019-06-04T16:53:02+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m41.405 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:03+08:00
+OK: -> 2019-06-04T16:53:03+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m30.586 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:03+08:00
+OK: -> 2019-06-04T16:53:03+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m31.382 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-31') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:42+08:00
+OK: -> 2019-06-04T16:53:42+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-31%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m66.496 ms - 17942[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-31') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:45+08:00
+OK: -> 2019-06-04T16:53:45+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-31%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m48.586 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-31') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:53:46+08:00
+OK: -> 2019-06-04T16:53:46+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-31%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m43.416 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:54:09+08:00
+OK: -> 2019-06-04T16:54:09+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m38.554 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-04-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:54:14+08:00
+OK: -> 2019-06-04T16:54:14+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-04-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m79.764 ms - 28631[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:55:08+08:00
+OK: -> 2019-06-04T16:55:08+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m96.612 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:58:51+08:00
+OK: -> 2019-06-04T16:58:51+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m125.550 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:58:54+08:00
+OK: -> 2019-06-04T16:58:54+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m24.768 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:59:13+08:00
+OK: -> 2019-06-04T16:59:13+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m20.511 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:59:15+08:00
+OK: -> 2019-06-04T16:59:15+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m40.442 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:59:20+08:00
+OK: -> 2019-06-04T16:59:20+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m25.359 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:59:33+08:00
+OK: -> 2019-06-04T16:59:33+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m35.273 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:59:45+08:00
+OK: -> 2019-06-04T16:59:45+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m46.549 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:59:53+08:00
+OK: -> 2019-06-04T16:59:53+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m21.238 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T16:59:57+08:00
+OK: -> 2019-06-04T16:59:57+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m40.986 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:00:58+08:00
+OK: -> 2019-06-04T17:00:58+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m97.609 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:02:11+08:00
+OK: -> 2019-06-04T17:02:12+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m45.599 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:03:41+08:00
+OK: -> 2019-06-04T17:03:41+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m41.042 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:04:28+08:00
+OK: -> 2019-06-04T17:04:28+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m98.972 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:04:34+08:00
+OK: -> 2019-06-04T17:04:34+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m26.986 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:04:39+08:00
+OK: -> 2019-06-04T17:04:39+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m46.901 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:04:44+08:00
+OK: -> 2019-06-04T17:04:44+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m43.584 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:05:23+08:00
+OK: -> 2019-06-04T17:05:23+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m52.141 ms - 11146[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:05:56+08:00
+OK: -> 2019-06-04T17:05:56+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m45.411 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:06:49+08:00
+OK: -> 2019-06-04T17:06:49+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m96.584 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-18') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:08:43+08:00
+OK: -> 2019-06-04T17:08:43+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-18%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m65.756 ms - 10353[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-18') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:09:00+08:00
+OK: -> 2019-06-04T17:09:00+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-18%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m53.236 ms - 10078[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-18') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:11:06+08:00
+OK: -> 2019-06-04T17:11:06+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-18%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m98.695 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2019-05-01' and '2019-05-18') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:11:09+08:00
+OK: -> 2019-06-04T17:11:09+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-18%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m32.681 ms - 61[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:12:13+08:00
+OK: -> 2019-06-04T17:12:13+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m41.303 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:12:16+08:00
+OK: -> 2019-06-04T17:12:16+08:00
+[0mGET /v1/api/soly/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m27.226 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:12:28+08:00
+OK: -> 2019-06-04T17:12:28+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m46.122 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:12:42+08:00
+OK: -> 2019-06-04T17:12:42+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%27%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m676.765 ms - 388050[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D64733' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:15:08+08:00
+OK: -> 2019-06-04T17:15:09+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D64733%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m132.863 ms - 11324[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D64733' and brushdate between '2019-05-01' and '2019-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:15:28+08:00
+OK: -> 2019-06-04T17:15:28+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D64733%27%20and%20brushdate%20between%20%272019-05-01%27%20and%20%272019-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m53.120 ms - 11100[0m
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+[0mGET /v1/api/deer/tables/Record/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [31m500 [0m42.698 ms - 981[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:29:05+08:00
+OK: -> 2019-06-04T17:29:05+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m95.610 ms - -[0m
+[0mGET /v1/api/deer/tables/Record/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [31m500 [0m13.182 ms - 981[0m
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:36:40+08:00
+OK: -> 2019-06-04T17:36:41+08:00
+[0mGET /v1/api/records/D79298/undefined [32m200 [0m801.229 ms - 51[0m
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:36:48+08:00
+OK: -> 2019-06-04T17:36:48+08:00
+[0mGET /v1/api/records/D79298/undefined [36m304 [0m249.475 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:38:21+08:00
+OK: -> 2019-06-04T17:38:21+08:00
+[0mGET /v1/api/records/D79298/2018-05-20 [32m200 [0m194.108 ms - 51[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:38:43+08:00
+OK: -> 2019-06-04T17:38:43+08:00
+[0mGET /v1/api/records/D79298/2018-05-20 [36m304 [0m234.960 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:38:52+08:00
+OK: -> 2019-06-04T17:38:52+08:00
+[0mGET /v1/api/records/D79298/2018-09-20 [32m200 [0m212.712 ms - 970[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:39:19+08:00
+OK: -> 2019-06-04T17:39:20+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [32m200 [0m191.974 ms - 970[0m
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:39:49+08:00
+OK: -> 2019-06-04T17:39:50+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [36m304 [0m234.879 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-04T17:42:09+08:00
+OK: -> 2019-06-04T17:42:09+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [36m304 [0m55.106 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T17:42:18+08:00
+OK: -> 2019-06-04T17:42:19+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [36m304 [0m198.566 ms - -[0m
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T19:34:44+08:00
+OK: -> 2019-06-04T19:34:44+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [36m304 [0m484.615 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T19:34:45+08:00
+OK: -> 2019-06-04T19:34:45+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [36m304 [0m197.923 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T19:34:54+08:00
+OK: -> 2019-06-04T19:34:54+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [36m304 [0m228.058 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T19:37:56+08:00
+OK: -> 2019-06-04T19:37:56+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [36m304 [0m250.347 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.Time,m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO AND m.ManNO in (@ManNO)     AND convert(varchar(10),r.Time,120)=@Time     ORDER BY Time DESC -> 2019-06-04T19:39:29+08:00
+OK: -> 2019-06-04T19:39:29+08:00
+[0mGET /v1/api/records/D79298/2019-05-20 [36m304 [0m220.022 ms - -[0m
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY brushdate desc) AS RowNumber,* FROM attend WHERE manno='D79298' and brushdate between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T09:10:48+08:00
+OK: -> 2019-06-06T09:10:48+08:00
+[0mGET /v1/api/deer/tables/attend/?filter=manno=%27D79298%27%20and%20brushdate%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=brushdate%20desc [32m200 [0m270.707 ms - 11425[0m
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T09:37:38+08:00
+OK: -> 2019-06-06T09:37:38+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-20 [32m200 [0m688.668 ms - 19018[0m
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:15:51+08:00
+OK: -> 2019-06-06T10:15:51+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=[time]%20desc [32m200 [0m408.812 ms - 7199[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:17:09+08:00
+OK: -> 2019-06-06T10:17:09+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=[time]%20desc [36m304 [0m107.388 ms - -[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:17:49+08:00
+OK: -> 2019-06-06T10:17:49+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=[time]%20desc [36m304 [0m105.665 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:20:26+08:00
+OK: -> 2019-06-06T10:20:26+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=[time]%20desc [36m304 [0m157.842 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-01' and '2018-05-20') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:21:00+08:00
+OK: -> 2019-06-06T10:21:00+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-01%27%20and%20%272018-05-20%27&&skip=1&&top=1000&&orderby=[time]%20desc [36m304 [0m155.901 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:21:14+08:00
+OK: -> 2019-06-06T10:21:14+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-20 [36m304 [0m494.730 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:21:53+08:00
+OK: -> 2019-06-06T10:21:54+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-20 [36m304 [0m318.336 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:22:15+08:00
+OK: -> 2019-06-06T10:22:15+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-21 [32m200 [0m314.404 ms - 19018[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:22:19+08:00
+OK: -> 2019-06-06T10:22:19+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-22 [32m200 [0m313.176 ms - 19938[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:22:23+08:00
+OK: -> 2019-06-06T10:22:24+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-23 [32m200 [0m317.072 ms - 20858[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:22:29+08:00
+OK: -> 2019-06-06T10:22:30+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-24 [32m200 [0m308.659 ms - 23210[0m
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:23:07+08:00
+OK: -> 2019-06-06T10:23:07+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-20 [36m304 [0m355.896 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:23:12+08:00
+OK: -> 2019-06-06T10:23:12+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-25 [32m200 [0m314.506 ms - 23490[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:23:14+08:00
+OK: -> 2019-06-06T10:23:15+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-25 [36m304 [0m314.732 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:23:17+08:00
+OK: -> 2019-06-06T10:23:17+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-26 [32m200 [0m315.420 ms - 23586[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:24:15+08:00
+{ error: 
+   { RequestError: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:867:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     code: 'EREQUEST',
+     number: 241,
+     lineNumber: 1,
+     state: 1,
+     class: 16,
+     serverName: 'TUDANG',
+     procName: '',
+     originalError: { Error: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:865:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12) info: [Object] },
+     name: 'RequestError',
+     precedingErrors: [] },
+  rows: [],
+  rowSize: 0,
+  affected: 0 }
+[0mGET /v1/api/records/D79298/2018-05-01/1526832000000 [31m500 [0m62.083 ms - 420[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:24:24+08:00
+{ error: 
+   { RequestError: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:867:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     code: 'EREQUEST',
+     number: 241,
+     lineNumber: 1,
+     state: 1,
+     class: 16,
+     serverName: 'TUDANG',
+     procName: '',
+     originalError: { Error: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:865:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12) info: [Object] },
+     name: 'RequestError',
+     precedingErrors: [] },
+  rows: [],
+  rowSize: 0,
+  affected: 0 }
+[0mGET /v1/api/records/D79298/2018-05-01/1526832000000 [31m500 [0m15.768 ms - 420[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:25:11+08:00
+{ error: 
+   { RequestError: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:867:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     code: 'EREQUEST',
+     number: 241,
+     lineNumber: 1,
+     state: 1,
+     class: 16,
+     serverName: 'TUDANG',
+     procName: '',
+     originalError: { Error: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:865:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12) info: [Object] },
+     name: 'RequestError',
+     precedingErrors: [] },
+  rows: [],
+  rowSize: 0,
+  affected: 0 }
+[0mGET /v1/api/records/D79298/1525104000000/1526832000000 [31m500 [0m23.606 ms - 420[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:25:19+08:00
+{ error: 
+   { RequestError: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:867:15)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12)
+     code: 'EREQUEST',
+     number: 241,
+     lineNumber: 1,
+     state: 1,
+     class: 16,
+     serverName: 'TUDANG',
+     procName: '',
+     originalError: { Error: Conversion failed when converting datetime from character string.
+    at handleError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:865:19)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:618:16)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at Parser.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\token\token-stream-parser.js:54:15)
+    at emitOne (events.js:116:13)
+    at Parser.emit (events.js:211:7)
+    at addChunk (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\readable-stream\lib\_stream_readable.js:291:12) info: [Object] },
+     name: 'RequestError',
+     precedingErrors: [] },
+  rows: [],
+  rowSize: 0,
+  affected: 0 }
+[0mGET /v1/api/records/D79298/1525104000000/1526832000000 [31m500 [0m17.409 ms - 420[0m
+Listening on port 3000
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:26:36+08:00
+OK: -> 2019-06-06T10:26:37+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-21 [36m304 [0m363.963 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:26:41+08:00
+OK: -> 2019-06-06T10:26:41+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-22 [36m304 [0m313.304 ms - -[0m
+SQL: SELECT TOP(200) r.PKID,r.CardNO,r.MchNO,r.[Time],m.Name,m.ManNO     FROM Record r,Card_Log c,Man m     WHERE m.ManNO=c.ManNO AND c.Cardno=r.CardNO     AND m.ManNO in (@ManNO)     AND r.[Time] between @Time1 and @Time2    ORDER BY r.Time DESC -> 2019-06-06T10:26:48+08:00
+OK: -> 2019-06-06T10:26:48+08:00
+[0mGET /v1/api/records/D79298/2018-05-01/2018-05-23 [36m304 [0m315.929 ms - -[0m
+Listening on port 3000
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-01' and '2018-05-21') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:29:03+08:00
+OK: -> 2019-06-06T10:29:04+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-01%27%20and%20%272018-05-21%27&&skip=1&&top=1000&&orderby=[time]%20desc [32m200 [0m204.017 ms - 7199[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-01' and '2018-05-23') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:29:09+08:00
+OK: -> 2019-06-06T10:29:09+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-01%27%20and%20%272018-05-23%27&&skip=1&&top=1000&&orderby=[time]%20desc [32m200 [0m159.280 ms - 8185[0m
+SQL: SELECT TOP(1000) * FROM(SELECT ROW_NUMBER() OVER (ORDER BY [time] desc) AS RowNumber,* FROM View_foodrecord WHERE manno='D79298' and [time] between '2018-05-03' and '2018-05-23') AS A WHERE RowNumber > 1000*(1-1) -> 2019-06-06T10:29:22+08:00
+OK: -> 2019-06-06T10:29:22+08:00
+[0mGET /v1/api/deer/tables/View_foodrecord/?filter=manno=%27D79298%27%20and%20[time]%20between%20%272018-05-03%27%20and%20%272018-05-23%27&&skip=1&&top=1000&&orderby=[time]%20desc [32m200 [0m157.282 ms - 7692[0m
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000
+Listening on port 3000

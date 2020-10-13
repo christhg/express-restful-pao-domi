@@ -1,0 +1,793 @@
+F:\Chris_Workshop\03-Nodejs\12_express\express-restful\api\models\db2\Connection.js:9
+const config3 = require('./config4')
+      ^
+
+SyntaxError: Identifier 'config3' has already been declared
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\api\models\db2\DbContext.js:2:14)
+F:\Chris_Workshop\03-Nodejs\12_express\express-restful\api\models\db2\Connection.js:9
+const config3 = require('./config4')
+      ^
+
+SyntaxError: Identifier 'config3' has already been declared
+    at createScript (vm.js:80:10)
+    at Object.runInThisContext (vm.js:139:10)
+    at Module._compile (module.js:616:28)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\api\models\db2\DbContext.js:2:14)
+Tue, 04 Jun 2019 07:47:36 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 07:47:50 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 07:51:28 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 07:53:31 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 07:56:03 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:10:51 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+Tue, 04 Jun 2019 08:13:43 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:16:00 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:22:25 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:26:41 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:28:32 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:36:10 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:43:37 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:48:00 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:52:56 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:55:08 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 08:58:51 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:00:58 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:04:28 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:06:49 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:11:06 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:15:08 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:29:05 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:36:40 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:36:48 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 09:39:49 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+(node:3828) UnhandledPromiseRejectionWarning: ConnectionError: Failed to connect to 192.168.201.22:1433 - connect EHOSTUNREACH 192.168.201.22:1433
+    at Connection.tedious.once.err (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:239:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Connection.socketError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:1024:14)
+    at F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:868:25
+    at Socket.onError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connector.js:49:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 1)
+(node:3828) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:3828) UnhandledPromiseRejectionWarning: ConnectionError: Failed to connect to 192.168.201.22:1433 - connect EHOSTUNREACH 192.168.201.22:1433
+    at Connection.tedious.once.err (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:239:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Connection.socketError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:1024:14)
+    at F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:868:25
+    at Socket.onError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connector.js:49:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 2)
+(node:3828) UnhandledPromiseRejectionWarning: ConnectionError: Failed to connect to 192.168.201.22:1433 - connect EHOSTUNREACH 192.168.201.22:1433
+    at Connection.tedious.once.err (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:239:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Connection.socketError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:1024:14)
+    at F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:868:25
+    at Socket.onError (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connector.js:49:9)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 3)
+(node:3828) UnhandledPromiseRejectionWarning: ConnectionError: Failed to connect to mssql2017e:1433 in 15000ms
+    at Connection.tedious.once.err (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:239:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Connection.connectTimeout (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:944:12)
+    at Timeout._onTimeout (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:913:16)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 4)
+(node:3828) UnhandledPromiseRejectionWarning: ConnectionError: Failed to connect to mssql2017e:1433 in 15000ms
+    at Connection.tedious.once.err (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\lib\tedious.js:239:17)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Connection.emit (events.js:211:7)
+    at Connection.connectTimeout (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:944:12)
+    at Timeout._onTimeout (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\mssql\node_modules\tedious\lib\connection.js:913:16)
+    at ontimeout (timers.js:482:11)
+    at tryOnTimeout (timers.js:317:5)
+    at Timer.listOnTimeout (timers.js:277:5)
+(node:3828) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). (rejection id: 5)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 11:34:44 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Tue, 04 Jun 2019 11:37:56 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\express\lib\router\route.js:202
+        throw new Error(msg);
+        ^
+
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.(anonymous function) [as get] (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.(anonymous function) [as get] (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\node_modules\express\lib\router\index.js:510:19)
+    at Object.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\api\routes\records.js:5:8)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+Thu, 06 Jun 2019 01:10:48 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Thu, 06 Jun 2019 01:37:38 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Thu, 06 Jun 2019 02:15:51 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Thu, 06 Jun 2019 02:20:26 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Thu, 06 Jun 2019 02:21:00 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Thu, 06 Jun 2019 02:23:07 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Thu, 06 Jun 2019 02:26:36 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+Thu, 06 Jun 2019 02:29:04 GMT tedious deprecated The `Null` data type is internal and will be removed. at node_modules\mssql\lib\tedious.js:1070:55
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+events.js:183
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at _errnoException (util.js:1022:11)
+    at TCP.onread (net.js:628:25)
+module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '../models/db2/db1'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\api\middleware\ldap-auth.js:2:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module '../models/db2/db1'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (F:\Chris_Workshop\03-Nodejs\12_express\express-restful\api\middleware\ldap-auth.js:2:10)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
